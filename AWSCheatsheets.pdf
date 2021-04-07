@@ -1,0 +1,73 @@
+As of 1st March 2021
+	➥80 Availability Zones
+	➥25 Regions
+	➥5 Announced Regions
+	➥12 Announced Local Zones 
+	➥245 Countries and Territories Served
+
+Cload Front: CDN
+S3: Global Service/ by default they are private.
+S3: It is a managed service. Unlimited Storage capacity.
+Durability: 99.999999999% (11'9s)
+Availability: 99.99%
+EC2: Region Specific Service
+
+Shared Tenancy: Multiple applications
+Dedicated tenancy: Single Application
+
+Default port for SQL: 3306
+
+AWS Computing Services:
+	1. EC2
+	2. Lambda: Background task to process.
+	3. Elastic Beanstalk: to load or host ur applications.
+	4. Elastic Load Balancer: Distributes the workload on the deployed instances.
+	5. AutoScaling: Scale up and down automatically.
+	
+AWS Storage Services:
+	1. S3: Simple Storoage Service
+	2. CloudFront: CDN
+	3. Elastic Block Storage(EBS): Provides high IOPs
+	4. Glacier: Data Archiving Service , offering low price storage, store data not frequently accessed
+	5. Snowball: physical transfer of data to AWS Infrastucture.
+	6. Storage Gateway: 
+	
+AWS Database Services:
+	1. RDS : all RDBMS.
+	2. Aurora: Based on MySql butter than MySQL(i.e 5x more faster than MySQL)
+	3. DynamoDB: Non RDBMS, Scales automatically. No manually required 
+	4. ElasticCache:  Setup, manage and scale a distributed cache-in environment in the cloud and reduces latencies.
+	5. Redshift: Petabyte-scale data warehouse service
+
+AWS Networking Services:
+	1. VPC : Virtual Network where you launch your AWS resources
+	2. Direct Connect: Direct connect to AWS infrastructure via lease line.
+	3. Route53: DNS
+
+AWS Management Services:
+	1. Cloudwatch : Cloud monitioring tool
+	2. CloudFormation: used to templatize the AWS infrastructure. Creates snapshot and process in other machine.
+	3. CloudTrail: Logging Service
+	4. CLI : Instead of GUI
+	5. Ops Works: Configuration management tool.
+	6. Trusted Advisor: Personal assistance. Monthly expenditure, IAM policies.
+
+AWS Security Services:
+	1. IAM:	
+	2. KMS:	Key Management Service: Public Key, Private key (Create and manage encryption key to encrypt your data.)	
+
+AWS Application Service:
+	1. SES: Bulk Email Service
+	2. SQS: Simple Queue Service: Queuing Service which acts as buffer.
+	3. SNS: Simple Notification Service
+
+AWS Billing: ..Comming Soon.....
+
+AWS global services: AWS CloudFront, AWS IAM, Route53
+AWS Trusted Advisor: Cost Optimisation, Security, Fault Tolerence, Performance, Service Limits
+
+AWS Managed Services: RDS, DynamoDB, Redshift, workspace CloudFront, Cloud Search, elastc mapReduce
+Customer manages Services are: EC2, IAM, VPC
+
+Homogeneous: Oracle to Oracle Migration
+Heterogeneous: Oracle to SQL Server/SQL to MySql etc
